@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryScore">
+
+    <TextView
+        android:id="@+id/date1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toEndOf="@+id/date1TextView"
+        app:layout_constraintTop_toTopOf="@+id/date1TextView" />
+
+    <TextView
+        android:id="@+id/time11TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/date1TextView"
+        app:layout_constraintTop_toBottomOf="@+id/date1TextView" />
+
+    <TextView
+        android:id="@+id/time21TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toEndOf="@+id/time11TextView"
+        app:layout_constraintTop_toTopOf="@+id/time11TextView" />
+
+    <TextView
+        android:id="@+id/time31TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toEndOf="@+id/time21TextView"
+        app:layout_constraintTop_toTopOf="@+id/time21TextView" />
+
+    <TextView
+        android:id="@+id/time41TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toEndOf="@+id/time31TextView"
+        app:layout_constraintTop_toTopOf="@+id/time31TextView" />
+
+    <TextView
+        android:id="@+id/timeMax1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/time21TextView"
+        app:layout_constraintTop_toBottomOf="@+id/time21TextView" />
+
+    <TextView
+        android:id="@+id/timeAvg1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/time41TextView"
+        app:layout_constraintTop_toBottomOf="@+id/time41TextView" />
+
+
+    <TextView
+        android:id="@+id/date2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/time11TextView"
+        app:layout_constraintTop_toBottomOf="@+id/time11TextView" />
+
+    <TextView
+        android:id="@+id/time2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/date2TextView"
+        app:layout_constraintTop_toTopOf="@+id/date2TextView" />
+
+    <TextView
+        android:id="@+id/time12TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/date2TextView"
+        app:layout_constraintTop_toBottomOf="@+id/date2TextView" />
+
+    <TextView
+        android:id="@+id/time22TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/time12TextView"
+        app:layout_constraintTop_toTopOf="@+id/time12TextView" />
+
+    <TextView
+        android:id="@+id/time32TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/time22TextView"
+        app:layout_constraintTop_toTopOf="@+id/time22TextView" />
+
+    <TextView
+        android:id="@+id/time42TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/time32TextView"
+        app:layout_constraintTop_toTopOf="@+id/time32TextView" />
+
+    <TextView
+        android:id="@+id/timeMax2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/time22TextView"
+        app:layout_constraintTop_toBottomOf="@+id/time22TextView" />
+
+    <TextView
+        android:id="@+id/timeAvg2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/time42TextView"
+        app:layout_constraintTop_toBottomOf="@+id/time42TextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
